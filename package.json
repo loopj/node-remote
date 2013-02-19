@@ -1,0 +1,12 @@
+{
+  "name": "remote",
+  "version": "0.1.0",
+  "main": "src/index.coffee",
+  "scripts": {
+    "start": "coffee src/index.coffee"
+  },
+  "dependencies": {
+    "async": "latest",
+    "ansi-color": "latest"
+  }
+}
