@@ -38,14 +38,3 @@ exports.runTask = runTask = (taskName) ->
   task = taskName.split(":").reduce ((obj, el) -> obj?[el]), Task.tasks
   task.run() if task
   # TODO: Callbacks
-
-
-role "app", "doppler.io", "bugsnag.com"
-
-namespace "deploy", ->
-  task "herp", roles: ["app"], ->
-    run "pwd"
-    run "hostname"
-    run "whoami"
-
-runTask "deploy:herp"

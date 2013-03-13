@@ -8,5 +8,9 @@
   "dependencies": {
     "async": "latest",
     "ansi-color": "latest"
+  },
+  "devDependencies": {
+    "grunt-bumpx": "~0.1.1",
+    "grunt-contrib-coffee": "~0.6.0"
   }
 }
